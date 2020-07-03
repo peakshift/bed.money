@@ -1,0 +1,189 @@
+/*
+	Masthead
+*/
+#masthead {
+	padding: 2rem 20px 5rem;
+	max-width: 700px;
+}
+
+#logo {
+	border: none;
+	font-size:4rem;
+}
+
+#logo img {
+	width: 128px;
+	margin-bottom: 2rem;
+}
+
+.nav {
+	font-size: 21px;
+	line-height: 2rem;
+	position: absolute;
+	right: 20px;
+	top: 2rem;
+}
+
+@media only screen and (min-width: 743px) {
+	#masthead .custom-select {
+		display: inline-block;
+		margin-right: 0.5rem;
+	}
+
+	#masthead button,
+	#masthead input,
+	#masthead select {
+		width: auto;
+	}
+
+	#masthead select {
+		min-width: 400px;
+	}
+}
+
+/*
+	Layout
+*/
+.block {
+	background-color: #FFF;
+	border-top: 4px double #EBEEEF;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	position: relative;
+}
+
+.block:last-child {
+	padding-bottom: 1.5rem;
+}
+
+.block section {
+	padding: 0 20px;
+	max-width: 700px;
+}
+
+.block.get-started {
+	background-color: #F8FDF9;
+}
+.block.get-started h1,
+.block.get-started h2,
+.block.get-started h3,
+.block.get-started h4,
+.block.get-started h5,
+.block.get-started h6 {
+	color: #434B50;
+}
+
+.block.get-started .school {
+	background: #FFF;
+	border-color: #CADACE;
+	box-shadow: 0 2px 0 #EEF4EE;
+}
+
+/*
+	Footer
+*/
+#page-bottom {
+	background-color: #FFF;
+/*	border-bottom: 1rem solid #F8FBFD;*/
+}
+
+#page-bottom footer {
+	padding: 0 20px 3rem;
+	/*border-bottom: 1px solid #EBEEEF;*/
+}
+
+#page-bottom footer p {
+	margin: 0;
+}
+
+.mobile--mt1 {
+	margin-top: 1rem;
+}
+
+.mobile--block {
+	display: block;
+}
+
+.mobile--hide {
+	display: none;
+}
+
+.mobile--capitalize {
+	text-transform: capitalize;
+}
+
+/*
+	Responsive
+*/
+@media only screen and (min-width: 871px) {
+	#masthead,
+	.block section,
+	#page-bottom footer {
+		padding-left: 80px;
+	}
+
+	#masthead {
+		padding-top: 6rem;
+		padding-bottom: 5rem;
+	}
+
+	#logo img {
+		width: 160px;
+		margin-bottom: 4rem;
+	}
+
+	.nav {
+		right: 80px;
+		top: 6rem;
+	}
+
+	#masthead .lead {
+		margin-bottom: 3rem;
+	}
+
+	.block {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.block:last-child {
+		padding-bottom: 3rem;
+	}
+
+	.figure {
+		margin-left: -1rem;
+		margin-right: -80px;
+	}
+	.figure img {
+		width: 100%;
+	}
+
+	#page-bottom footer {
+		padding-bottom: 6rem;
+	}
+
+	.mobile--mb1 {
+		margin-bottom: auto;
+	}
+
+	.mobile--block {
+		display: inline;
+	}
+
+	.mobile--hide {
+		display: initial;
+	}
+
+	.desktop--pl1 {
+		padding-left: 1rem;
+	}
+
+	.desktop--pr1 {
+		padding-right: 1rem;
+	}
+
+	.mobile--capitalize {
+		text-transform: none;
+	}
+
+}

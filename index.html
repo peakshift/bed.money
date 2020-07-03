@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js gr__bed_money" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- CSS STYLES -->
+	<link rel="stylesheet" href="/assets/css/master.css?v-123">
+	<link rel="stylesheet" href="/assets/css/layout.css">
+	<link rel="stylesheet" href="/assets/css/widgets.css">
+	<link rel="stylesheet" href="/assets/css/press.css">
+	<link rel="stylesheet" href="/assets/css/team.css">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:wght@300;400;500&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<!-- META DATA -->
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="white">
+
+	<title>🛏.💵 - Money in strange places</title>
+	<meta name="description" content="...">
+	<meta name="keywords" content="bed money, mattress money, user research, user interviews, use cases, bitcoin">
+	<meta name="author" content="BED.MONEY">
+	<meta name="company" content="BED.MONEY">
+	<meta name="copyright" content="Copyright (c) 2020 Peak Shift Ltd.">
+
+	<link rel="shortcut icon" type="image/png" href="/assets/i/favicon.png">
+
+	<link rel="next" href="/stories/">
+
+	<meta name="application-name" content="BED.MONEY">
+	<meta name="msapplication-TileColor" content="#0084CB">
+
+	<meta property="og:url" content="https://bed.money">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="BED.MONEY">
+	<meta property="og:site_name" content="BED.MONEY">
+	<meta property="og:image" content="assets/i/share-image.png">
+	<meta property="og:description" content="...">
+
+	<meta name="twitter:card" content="photo">
+	<meta name="twitter:site" content="@peakshift">
+	<meta name="twitter:title" content="BED.MONEY">
+	<meta name="twitter:image" content="assets/i/share-image.png">
+	<meta name="twitter:image:width" content="1200">
+	<meta name="twitter:image:height" content="630">
+
+</head>
+<body class="" data-gr-c-s-loaded="true">
+
+	<div id="page-top">
+		<header id="masthead">
+			<a id="logo" href="/">
+				🛏<br>
+				💵
+			</a>
+			<h2 class="page-title">How do people in <span id="random--country" class="highlight">Rwanda</span> store and move money?</h2>
+			<p class="lead mb0">This is an initiative to <strong>collect stories of how people interact with money in different parts of the world</strong> so as designers and developers we may do better <strong>to understand the difficulties people face</strong> with its <strong>access and use</strong>, and how to make experiences that fit <strong>Bitcoin as a global money system</strong> in their daily lives.</p>
+		</header>
+	</div>
+
+	<div id="page-mid">
+		<div class="block">
+			<section class="mb3">
+				<h3>Rwanda</h3>
+
+				<div class="feature">
+					<h4>Enviroment</h4>
+					<p>There is currently a push for Rwandans to go cashless — especially given the COVID19 pandemic, and the risks of people making exchanges in close proximity.</p>
+				</div>
+			</section>
+		</div>
+
+		<div class="block">
+			<section class="mb3">
+				<h3>Eastern Caribbean</h3>
+
+				<div class="feature">
+					<h4>Enviroment</h4>
+					<p>The Eastern Caribbean Central Bank has launched a pilot program for a digital version of the Eastern Caribbean Digital Dollar (XCD) in 5 island nations; Antigua and Barbuda, Grenada, Saint Lucia and St. Kitts</p>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div id="page-bottom">
+		<footer>
+			<p class="muted">Copyright &copy; 2020 — Peak Shift Ltd.</p>
+		</footer>
+	</div>
+	<script type="text/javascript">
+		const countries = ["Rwanda", "Indonesia", "Kenya", "Saint Lucia", "Trinidad & Tobago", "Venezuela", "Guyana"];
+		const sleep = (milliseconds) => {
+			return new Promise(resolve => setTimeout(resolve, milliseconds))
+		}
+
+		async function loopCountries() {
+			while(true) {
+				await sleep(1000);
+				let randomInt = Math.floor(Math.random() * Math.floor(countries.length));
+				document.getElementById("random--country").innerText = countries[randomInt];
+			}
+		}
+		loopCountries();
+	</script>
+</body></html>

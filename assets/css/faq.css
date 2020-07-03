@@ -1,0 +1,7 @@
+.block--faq article {
+	margin-bottom: 3rem;
+}
+
+.block--faq article:last-child {
+	margin-bottom: 0;
+}
