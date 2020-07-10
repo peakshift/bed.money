@@ -168,9 +168,9 @@ cite {
 }
 
 .lead {
-	font-size: 21px;
+	font-size: 24px;
 	letter-spacing: 0;
-	line-height: 2rem;
+	line-height: 2.4rem;
 	padding-bottom: 1rem;
 }
 
@@ -180,6 +180,10 @@ cite {
 
 .muted {
 	color: #B9C1C6;
+}
+
+.mt0 {
+	margin-top: 0!important;
 }
 
 .mb0 {
@@ -357,11 +361,11 @@ body.home #page-top {
 */
 
 @media only screen and (min-width: 1440px) {
-/*
-	body {
+/*	body {
 		background-color: #F8FBFD;
 	}
 	#page-top {
 		background-color: #F8FBFD;
 	}
-*/}
+*/
+}
