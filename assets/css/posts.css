@@ -1,0 +1,120 @@
+.block--post {
+	position: relative;
+}
+.block--post:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 1px;
+	bottom: 0;
+	width: 40px;
+	background-image: linear-gradient(90deg, rgba(255,255,255,0.00) 0%, #FFFFFF 100%);
+	touch-action: none;
+	pointer-events: none;
+}
+
+.post {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+}
+
+.post__scroller {
+	width: 400vw;
+	display: inline-flex;
+	padding-right: 20px;
+}
+
+.post__mention {
+	background: #FFFFFF;
+	border: 1px solid #E6ECF0;
+	box-shadow: 0px 2px 0 rgba(0,0,0,0.02);
+	border-radius: 2px;
+	padding: 1rem;
+	margin-left: 20px;
+	margin-top: 0;
+	transition: transform 0.12s linear, border-color 0.06s linear;
+	position: relative;
+}
+
+.post__mention:after {
+	content: none;
+	display: none;
+}
+
+.post__mention:hover,
+.post__mention:focus,
+.post__mention:active {
+	border: 1px solid #B9C1C6;
+	box-shadow: 0px 2px 0 rgba(0,0,0,0.04);
+	transform: translate3d(0,4px,0);
+}
+
+.post__mention:active {
+	background-color: #F8FBFD;
+	border: 1px solid #B9C1C6;
+	box-shadow: inset 0px 2px 0 rgba(0,0,0,0.04);
+	transform: translate3d(0,4px,0);
+}
+
+.post__mention:after {
+	transition: opacity 0.08s linear;
+}
+
+.post__mention:active:after {
+	position: absolute;
+	z-index: 0;
+	border: 1px solid #B9C1C6;
+	content: '';
+	top: 2px;
+	bottom: 2px;
+	right: 2px;
+	left: 2px;
+	border-radius: 1px;
+	opacity: 1;
+}
+
+.post__mention cite img {
+	height: 48px;
+	border-radius: 2px;
+	display: block;
+}
+
+.post__mention p {
+	margin-bottom: 0;
+}
+
+.post__mention p a {
+	font-family: 'Optima-Regular', 'Optima', 'Marcellus', sans-serif;
+	font-weight: 600;
+	color: #434B50;
+	border: none;
+	font-style: normal;
+}
+
+.post__mention cite span {
+	display: none;
+}
+
+.post__mention time {
+	font-size: 0.9rem;
+	color: #B9C1C6;
+}
+
+@media only screen and (min-width: 871px) {
+	.post__scroller {
+		width: 150vw;
+	}
+
+	.block--post:after {
+		width: 160px;
+	}
+
+	.post__mention:first-child {
+		margin-left: 80px;
+	}
+	.post__mention:last-child {
+		margin-right: 80px;
+	}
+}

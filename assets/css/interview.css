@@ -62,11 +62,17 @@ th, td {
     border-bottom: 1px dotted #dedede;
 }
 
-thead, thead th {
+thead th {
 	font-family: "IBM Plex Sans Condensed", sans-serif;
 	background: #65818e12;
 	text-transform: uppercase;
 	font-weight: normal;
+}
+
+thead p, thead ol {
+	font-family: inherit!important;
+	text-transform: none;
+	font-size: 1rem;
 }
 
 table tr:last-child th,

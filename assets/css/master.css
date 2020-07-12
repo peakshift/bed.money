@@ -141,6 +141,12 @@ cite {
 		border-bottom: 4px solid #b8c1c540;
 	}
 
+.text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 .muted {
 	color: #B9C1C6;
 }
@@ -164,6 +170,16 @@ cite {
 .mb3 {
 	margin-bottom: 3rem;
 }
+
+.tag {
+	padding: 0.1em 0.75em;
+	border-radius: 1em;
+	border: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 0.5em;
+	display: inline-block;
+	color: inherit;
+}
+
 /*
 	Form
 */
