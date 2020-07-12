@@ -115,49 +115,12 @@ blockquote {
 	padding-right: 1rem;
 }
 
-blockquote p,
 blockquote cite {
 	font-family: "Source Sans Pro", sans-serif;
 }
 
 blockquote p:last-child {
 	margin-bottom: 0;
-}
-
-blockquote.quote--lined {
-	margin-left: 0;
-	margin-right: 0;
-	font-style: italic;
-	position: relative;
-	padding-left: 2rem;
-	padding-right: 2rem;
-}
-
-blockquote.quote--lined:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	width: 4px;
-	background-color: #F9FAFB;
-	border-radius: 4px;
-}
-
-blockquote.quote--symbol {
-	padding-left: 4rem;
-}
-blockquote.quote--symbol:after {
-	content: '“';
-	position: absolute;
-	top: 1.5rem;
-	left: 0;
-	bottom: auto;
-	border-radius: 4px;
-	font-size: 6rem;
-	font-weight: bold;
-	color: rgba(0, 0, 0, 0.05);
-	background-color: transparent;
 }
 
 cite {
