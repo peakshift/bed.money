@@ -173,11 +173,16 @@ cite {
 
 .tag {
 	padding: 0.1em 0.75em;
-	border-radius: 1em;
+	border-radius: 1.25em;
 	border: 1px solid rgba(0,0,0,0.1);
 	margin-bottom: 0.5em;
 	display: inline-block;
 	color: inherit;
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06);
+}
+a.tag:hover {
+    border-color: #d1e9ce;
 }
 
 /*

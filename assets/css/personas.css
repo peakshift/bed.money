@@ -1,7 +1,7 @@
-.block--post {
+.block--personas {
 	position: relative;
 }
-.block--post:after {
+.block--personas:after {
 	content: '';
 	position: absolute;
 	right: 0;
@@ -13,20 +13,20 @@
 	pointer-events: none;
 }
 
-.post {
+.personas {
 	overflow-x: scroll;
 	overflow-y: hidden;
 	position: relative;
 	-webkit-overflow-scrolling: touch;
 }
 
-.post__scroller {
+.personas__scroller {
 	width: 400vw;
 	display: inline-flex;
 	padding-right: 20px;
 }
 
-.post__mention {
+.personas__mention {
 	background: #FFFFFF;
 	border: 1px solid #E6ECF0;
 	box-shadow: 0px 2px 0 rgba(0,0,0,0.02);
@@ -36,33 +36,34 @@
 	margin-top: 0;
 	transition: transform 0.12s linear, border-color 0.06s linear;
 	position: relative;
+	font-style: normal;
 }
 
-.post__mention:after {
+.personas__mention:after {
 	content: none;
 	display: none;
 }
 
-.post__mention:hover,
-.post__mention:focus,
-.post__mention:active {
+.personas__mention:hover,
+.personas__mention:focus,
+.personas__mention:active {
 	border: 1px solid #B9C1C6;
 	box-shadow: 0px 2px 0 rgba(0,0,0,0.04);
 	transform: translate3d(0,4px,0);
 }
 
-.post__mention:active {
+.personas__mention:active {
 	background-color: #F8FBFD;
 	border: 1px solid #B9C1C6;
 	box-shadow: inset 0px 2px 0 rgba(0,0,0,0.04);
 	transform: translate3d(0,4px,0);
 }
 
-.post__mention:after {
+.personas__mention:after {
 	transition: opacity 0.08s linear;
 }
 
-.post__mention:active:after {
+.personas__mention:active:after {
 	position: absolute;
 	z-index: 0;
 	border: 1px solid #B9C1C6;
@@ -75,46 +76,43 @@
 	opacity: 1;
 }
 
-.post__mention cite img {
+.personas__mention cite img {
 	height: 48px;
 	border-radius: 2px;
 	display: block;
 }
 
-.post__mention p {
-	margin-bottom: 0;
+.personas__mention p {
+	margin-bottom: 0.5em;
 }
 
-.post__mention p a {
-	font-family: 'Optima-Regular', 'Optima', 'Marcellus', sans-serif;
-	font-weight: 600;
-	color: #434B50;
+.personas__mention p a {
+	font-weight: 400;
 	border: none;
 	font-style: normal;
 }
 
-.post__mention cite span {
+.personas__mention cite span {
 	display: none;
 }
 
-.post__mention time {
+.personas__mention time {
 	font-size: 0.9rem;
-	color: #B9C1C6;
 }
 
 @media only screen and (min-width: 871px) {
-	.post__scroller {
+	.personas__scroller {
 		width: 150vw;
 	}
 
-	.block--post:after {
+	.block--personas:after {
 		width: 160px;
 	}
 
-	.post__mention:first-child {
+	.personas__mention:first-child {
 		margin-left: 80px;
 	}
-	.post__mention:last-child {
+	.personas__mention:last-child {
 		margin-right: 80px;
 	}
 }
