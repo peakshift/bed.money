@@ -2,13 +2,17 @@
 	position: relative;
 }
 .block--personas:after {
-	content: '';
+	content: "";
 	position: absolute;
 	right: 0;
 	top: 1px;
 	bottom: 0;
 	width: 40px;
-	background-image: linear-gradient(90deg, rgba(255,255,255,0.00) 0%, #FFFFFF 100%);
+	background-image: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0) 0%,
+		#ffffff 100%
+	);
 	touch-action: none;
 	pointer-events: none;
 }
@@ -27,9 +31,9 @@
 }
 
 .personas__mention {
-	background: #FFFFFF;
-	border: 1px solid #E6ECF0;
-	box-shadow: 0px 2px 0 rgba(0,0,0,0.02);
+	background: #ffffff;
+	border: 1px solid #e6ecf0;
+	box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.02);
 	border-radius: 2px;
 	padding: 1rem;
 	margin-left: 20px;
@@ -47,16 +51,16 @@
 .personas__mention:hover,
 .personas__mention:focus,
 .personas__mention:active {
-	border: 1px solid #B9C1C6;
-	box-shadow: 0px 2px 0 rgba(0,0,0,0.04);
-	transform: translate3d(0,4px,0);
+	border: 1px solid #b9c1c6;
+	box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.04);
+	transform: translate3d(0, 4px, 0);
 }
 
 .personas__mention:active {
-	background-color: #F8FBFD;
-	border: 1px solid #B9C1C6;
-	box-shadow: inset 0px 2px 0 rgba(0,0,0,0.04);
-	transform: translate3d(0,4px,0);
+	background-color: #f8fbfd;
+	border: 1px solid #b9c1c6;
+	box-shadow: inset 0px 2px 0 rgba(0, 0, 0, 0.04);
+	transform: translate3d(0, 4px, 0);
 }
 
 .personas__mention:after {
@@ -66,8 +70,8 @@
 .personas__mention:active:after {
 	position: absolute;
 	z-index: 0;
-	border: 1px solid #B9C1C6;
-	content: '';
+	border: 1px solid #b9c1c6;
+	content: "";
 	top: 2px;
 	bottom: 2px;
 	right: 2px;

@@ -8,7 +8,7 @@
 
 #logo {
 	border: none;
-	font-size:4rem;
+	font-size: 4rem;
 }
 
 #logo img {
@@ -45,8 +45,8 @@
 	Layout
 */
 .block {
-	background-color: #FFF;
-	border-top: 4px double #EBEEEF;
+	background-color: #fff;
+	border-top: 4px double #ebeeef;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	position: relative;
@@ -62,7 +62,7 @@
 }
 
 .block.get-started {
-	background-color: #F8FDF9;
+	background-color: #f8fdf9;
 }
 .block.get-started h1,
 .block.get-started h2,
@@ -70,21 +70,21 @@
 .block.get-started h4,
 .block.get-started h5,
 .block.get-started h6 {
-	color: #434B50;
+	color: #434b50;
 }
 
 .block.get-started .school {
-	background: #FFF;
-	border-color: #CADACE;
-	box-shadow: 0 2px 0 #EEF4EE;
+	background: #fff;
+	border-color: #cadace;
+	box-shadow: 0 2px 0 #eef4ee;
 }
 
 /*
 	Footer
 */
 #page-bottom {
-	background-color: #FFF;
-/*	border-bottom: 1rem solid #F8FBFD;*/
+	background-color: #fff;
+	/*	border-bottom: 1rem solid #F8FBFD;*/
 }
 
 #page-bottom footer {
@@ -185,5 +185,4 @@
 	.mobile--capitalize {
 		text-transform: none;
 	}
-
 }

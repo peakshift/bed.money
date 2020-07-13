@@ -2,10 +2,10 @@
 	Widgets
 */
 .feature {
-  background: #E6ECF0;
+	background: #e6ecf0;
 	padding: 1rem;
 	margin-bottom: 3rem;
-  border: 1px solid #CAD6DA;
+	border: 1px solid #cad6da;
 	border-radius: 2px;
 }
 
@@ -20,7 +20,7 @@
 .partners {
 	list-style: none inside;
 	padding: 0;
-	overflow:hidden;
+	overflow: hidden;
 	margin: 0;
 }
 .partners li {

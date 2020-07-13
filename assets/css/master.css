@@ -5,7 +5,9 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 font-family: 'IBM Plex Serif', serif;
 */
 body {
-	font-family: "IBM Plex Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: "IBM Plex Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", Arial, sans-serif;
 	color: #505050;
 	letter-spacing: 0;
 	font-size: 18px;
@@ -24,13 +26,18 @@ body {
 
 img {
 	max-width: 100%;
-  -ms-interpolation-mode: bicubic;
+	-ms-interpolation-mode: bicubic;
 }
 
 /*
 	Typography
 */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: "IBM Plex Sans Condensed", sans-serif;
 	font-size: 24px;
 	letter-spacing: 0;
@@ -42,8 +49,8 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
-    line-height: 48px;
+	font-size: 35px;
+	line-height: 48px;
 	letter-spacing: 0;
 	font-weight: 500;
 }
@@ -51,13 +58,14 @@ h2 {
 h4 {
 	font-size: 18px;
 	font-weight: 600;
-	color: #434B50;
+	color: #434b50;
 	letter-spacing: 0;
 	text-transform: uppercase;
 }
 
-h5, h6 {
-	font-size: 18px;	
+h5,
+h6 {
+	font-size: 18px;
 	text-transform: uppercase;
 }
 
@@ -65,8 +73,13 @@ h6 {
 	color: #788085;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	color: #004D76;
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #004d76;
 	border-bottom-color: rgba(0, 132, 203, 0.09);
 }
 
@@ -80,29 +93,33 @@ ol {
 	color: #788085;
 }
 
-ol p, ul {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+ol p,
+ul {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,
+		sans-serif;
 	font-size: 18px;
 	font-style: normal;
-	color: #434B50;
+	color: #434b50;
 	letter-spacing: 0;
 	line-height: 1.66em;
 	margin-top: 0;
 }
 
 a {
-	color: #0084CB;
-	border-bottom: 1px solid #0084CB;
+	color: #0084cb;
+	border-bottom: 1px solid #0084cb;
 	text-decoration: none;
 }
 
-a:hover, .nav a:hover {
-	color: #4BAE44;
-	border-color: #4BAE44;
+a:hover,
+.nav a:hover {
+	color: #4bae44;
+	border-color: #4bae44;
 }
 
 abbr {
-	border-bottom: 1px dotted rgba(0,0,0,0.08);
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.08);
 	text-decoration: none;
 }
 
@@ -137,9 +154,9 @@ cite {
 	padding-bottom: 1rem;
 }
 
-	.lead strong {
-		border-bottom: 4px solid #b8c1c540;
-	}
+.lead strong {
+	border-bottom: 4px solid #b8c1c540;
+}
 
 .text-truncate {
 	overflow: hidden;
@@ -148,15 +165,15 @@ cite {
 }
 
 .muted {
-	color: #B9C1C6;
+	color: #b9c1c6;
 }
 
 .mt0 {
-	margin-top: 0!important;
+	margin-top: 0 !important;
 }
 
 .mb0 {
-	margin-bottom: 0!important;
+	margin-bottom: 0 !important;
 }
 
 .mb1 {
@@ -174,26 +191,30 @@ cite {
 .tag {
 	padding: 0.1em 0.75em;
 	border-radius: 1.25em;
-	border: 1px solid rgba(0,0,0,0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	margin-bottom: 0.5em;
 	display: inline-block;
 	color: inherit;
-    background: #fff;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06);
+	background: #fff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06);
 }
 a.tag:hover {
-    border-color: #d1e9ce;
+	border-color: #d1e9ce;
 }
 
 /*
 	Form
 */
-button::-moz-focus-inner, input::-moz-focus-inner, select::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+button::-moz-focus-inner,
+input::-moz-focus-inner,
+select::-moz-focus-inner {
+	padding: 0;
+	border: 0;
 }
 
-button, input, select {
+button,
+input,
+select {
 	width: 100%;
 	margin-bottom: 1rem;
 	cursor: pointer;
@@ -215,28 +236,28 @@ select {
 	-moz-appearance: none;
 	appearance: none;
 	position: relative;
-	background-color: #F2F5F7;
-  border: 1px solid #B9C1C6;
-  padding: 1rem 3rem 1rem 1.5rem;
-  border-radius: 2px;
-  font-size: 18px;
-  font-weight: 200;
-  color: #434B50;
-  display: inline-block;
-  line-height: 1.2rem;
-  box-sizing: border-box;
+	background-color: #f2f5f7;
+	border: 1px solid #b9c1c6;
+	padding: 1rem 3rem 1rem 1.5rem;
+	border-radius: 2px;
+	font-size: 18px;
+	font-weight: 200;
+	color: #434b50;
+	display: inline-block;
+	line-height: 1.2rem;
+	box-sizing: border-box;
 }
 
 select:hover,
 select:focus {
-	background-color: #FFF;
+	background-color: #fff;
 	border-color: #788085;
 	box-shadow: inset 0 -2px 0px rgba(0, 77, 117, 0.12);
 }
 
 @media only screen and (min-width: 1200px) {
 	select {
-		background-color: #F2F5F7;
+		background-color: #f2f5f7;
 		border-color: #788085;
 		box-shadow: inset 0 -2px 0px rgba(0, 77, 117, 0.12);
 	}
@@ -248,7 +269,7 @@ select:focus {
 }
 
 .custom-select:after {
-	content: '';
+	content: "";
 	position: absolute;
 	right: 1.5rem;
 	top: 50%;
@@ -256,7 +277,7 @@ select:focus {
 	height: 10px;
 	width: 19px;
 	z-index: 1;
-	background: transparent url('../i/arrow.svg') no-repeat center center;
+	background: transparent url("../i/arrow.svg") no-repeat center center;
 	touch-action: none;
 	pointer-events: none;
 }
@@ -264,18 +285,20 @@ select:focus {
 /*
 	Buttons
 */
-.button, button, input[type=submit] {
+.button,
+button,
+input[type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	background: #0084CB;
-	box-shadow: 0 0 0 0 #0875B0, inset 0 -2px 0 0 #0875B0;
+	background: #0084cb;
+	box-shadow: 0 0 0 0 #0875b0, inset 0 -2px 0 0 #0875b0;
 	border-radius: 2px;
 	padding: 1rem 1.5rem;
 	text-transform: uppercase;
 	font-weight: 600;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #ffffff;
 	border: none;
 	font-size: 18px;
 	display: inline-block;
@@ -285,44 +308,43 @@ select:focus {
 
 .button:hover,
 .button:focus,
-input[type=submit]:hover,
-input[type=submit]:focus {
-	color: #FFF;
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	color: #fff;
 	border: 1px solid rgba(3, 35, 51, 0.12);
 	filter: brightness(1.1);
 }
 
 .button.cta--primary {
-	background: #4BAE44;
-	box-shadow: 0 0 0 0 #42983C, inset 0 -2px 0 0 #42983C;
+	background: #4bae44;
+	box-shadow: 0 0 0 0 #42983c, inset 0 -2px 0 0 #42983c;
 }
 
 .button.cta--secondary {
-	background: #0084CB;
-	box-shadow: 0 0 0 0 #0875B0, inset 0 -2px 0 0 #0875B0;
+	background: #0084cb;
+	box-shadow: 0 0 0 0 #0875b0, inset 0 -2px 0 0 #0875b0;
 }
 
 .button.cta--muted {
 	background: #788085;
-	box-shadow: 0 0 0 0 #434B50, inset 0 -2px 0 0 #434B50;
+	box-shadow: 0 0 0 0 #434b50, inset 0 -2px 0 0 #434b50;
 }
 
 .button.cta--info {
-	background: #004D76;
+	background: #004d76;
 	box-shadow: 0 0 0 0 #003754, inset 0 -2px 0 0 #003754;
 }
 
 .button:focus,
-input[type=submit]:focus {
+input[type="submit"]:focus {
 	box-shadow: none;
 }
-
 
 .highlight {
 	background-color: #dd1e3e;
 	background-color: #505050;
 	background-color: #292929;
-	color: #FFF;
+	color: #fff;
 	padding: 0 0.3rem;
 }
 
@@ -345,7 +367,7 @@ body.home #page-top {
 */
 
 @media only screen and (min-width: 1440px) {
-/*	body {
+	/*	body {
 		background-color: #F8FBFD;
 	}
 	#page-top {
