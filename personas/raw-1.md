@@ -2,13 +2,18 @@
 
 > With mobile money if he wants 200 , send him 200 , then you walk away. So it's quick, you don't have to negotiate.
 
-<figma id="123" />
+<figma id="123" />*182*1*1*DRIVERS_PHONE_NUMBER*300#
 
 ```flow
+*182*1*1*DRIVERS_PHONE_NUMBER*300#
+
 graph LR
-  start=>start: On Moto Ride
-  op=>operation: Your Operation
-  cond=>condition: Yes or No?
+  start=>start: Start Moto Ride
+  op=>operation: Unlock Phone
+  opis=>operation: 
+  opi=>operation: Ask Driver for Phone Number
+  Type *182*1*1*
+  cond=>condition: Confirm Transaction
   e=>end: Ride Finished
 
   start->op->cond
