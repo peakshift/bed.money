@@ -105,9 +105,9 @@ ul {
 	line-height: 1.66em;
 	margin-top: 0;
 }
-	ul li {
-		margin-bottom: 0.4rem;
-	}
+ul li {
+	margin-bottom: 0.4rem;
+}
 
 a {
 	color: #0084cb;
