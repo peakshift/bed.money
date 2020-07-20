@@ -4,7 +4,7 @@
 	"description": "Stories of stuggle and ways that people interact with money in different parts of the world",
 	"main": "index.html",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "python -m SimpleHTTPServer 8000 ."
 	},
 	"repository": {
 		"type": "git",
