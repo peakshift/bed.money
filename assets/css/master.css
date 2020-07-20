@@ -95,15 +95,18 @@ ol {
 
 ol p,
 ul {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,
-		sans-serif;
+	font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	color: #434b50;
 	letter-spacing: 0;
 	line-height: 1.66em;
 	margin-top: 0;
+}
+ul li {
+	margin-bottom: 0.4rem;
 }
 
 a {
