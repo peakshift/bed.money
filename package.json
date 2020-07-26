@@ -53,8 +53,10 @@
 		"@mdx-js/react": "^1.6.14",
 		"gatsby": "^2.22.5",
 		"gatsby-plugin-mdx": "^1.2.29",
+		"gatsby-source-filesystem": "^2.3.23",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
+		"react-mermaid2": "^0.1.4",
 		"tsconfig-paths-webpack-plugin": "^3.2.0"
 	},
 	"devDependencies": {
