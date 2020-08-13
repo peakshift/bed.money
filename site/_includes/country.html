@@ -1,0 +1,102 @@
+			<div class="block block--personas">
+				<section class="mb0">
+{% assign currencies = site.currencies | where: "currency", {{include.currency}} first %}
+{% for currency in currencies %}
+					<h3>{{currency.title}}</h3>
+
+					<div class="feature">
+						<h4>Environment</h4>
+						<p>
+							{{currency.environment}}
+						</p>
+					</div>
+{% endfor %}
+					<h4 class="">Personas</h4>
+				</section>
+				<div class="personas">
+					<div class="personas__scroller">
+{% assign personas = site.personas | where: "currency", {{include.currency}} %}
+{% for persona in personas %}
+						<blockquote class="personas__mention">
+							<p class="mt0 mb1">
+								<strong><small>PERSONA {{persona.participant | truncate: 4, ""}}</small></strong
+								><br />
+								<a href="{{persona.url}}">{{persona.title}}</a>
+							</p>
+{% if persona.tags %}
+							<time class="mb0 mt0">
+{% for tag in persona.tags %}
+								<span class="tag tag--primary">{{tag}}</span>&nbsp;
+{% endfor %}
+							</time>
+				</p>
+{% endif %}
+						</blockquote>
+{% endfor %}
+{% if persona.size < 2 %}
+ 						<blockquote class="personas__mention">
+							<p class="mt0 mb1">
+								<strong><small>PERSONA 0x00</small></strong
+								><br />
+								<em>More Comming Soon...</em>
+							</p>
+							<time class="mb0 mt0">
+								<span style="opacity: 0;" class="tag tag--primary">📍 Rwanda</span>&nbsp;
+								<span style="opacity: 0;" class="tag tag--primary">🏦 Bank</span
+								>&nbsp;
+								<span style="opacity: 0;" class="tag tag--primary"
+									>💸 Mobile Money</span
+								>&nbsp;
+								<span style="opacity: 0;" class="tag tag--primary"
+									>💳 Debit Card</span
+								>&nbsp;
+								<span style="opacity: 0;" class="tag tag--primary"
+									>📱 Android</span
+								>&nbsp;
+								<span style="opacity: 0;" class="tag tag--primary"
+									>💻 Desktop/Laptop</span
+								>&nbsp;
+								<span style="opacity: 0;" class="tag tag--primary"
+									>☁️ Google Drive (free)</span
+								>
+							</time>
+						</blockquote>
+{% endif %}
+ 					</div>
+				</div>
+
+				<section class="mb3">
+					<h4 class="mb0">Money Services</h4>
+					<h5 class="mt0">Local/Regional</h5>
+
+{% if persona.tags %}
+
+{% for tag in persona.tags %}
+
+{% endfor %}
+
+{% endif %}
+<!-- 
+					<h5 class="mb0">Global Companies</h5>
+					https://stackoverflow.com/a/50897298
+ -->
+{% assign services = site.services | where: "currency", {{include.currency}} %}
+{% for service in services %}
+					<article class="entity mt0 mb3">
+						<div class="entity__header">
+							<figure class="entity__photo">
+								<img src="{{service.logo}}" />
+							</figure>
+							<div class="entity__title">
+								<h4>
+									<a href="{{service.link}}" target="_blank"
+										>{{service.title}}</a
+									>
+								</h4>
+								<p>{{service.tags | join: ", "}}</p>
+							</div>
+						</div>
+					</article>
+{% endfor %}
+				</section>
+			</div>
