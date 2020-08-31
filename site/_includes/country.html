@@ -1,6 +1,7 @@
+{% assign currencies = site.currencies | where: "currency", {{include.currency}} first %}
+{% assign personas = site.personas | where: "currency", {{include.currency}} %}
 			<div class="block block--personas">
 				<section class="mb0">
-{% assign currencies = site.currencies | where: "currency", {{include.currency}} first %}
 {% for currency in currencies %}
 					<h3>{{currency.title}}</h3>
 
@@ -11,11 +12,13 @@
 						</p>
 					</div>
 {% endfor %}
+{% if personas.size > 0 %}
 					<h4 class="">Personas</h4>
+{% endif %}
 				</section>
+{% if personas %}
 				<div class="personas">
 					<div class="personas__scroller">
-{% assign personas = site.personas | where: "currency", {{include.currency}} %}
 {% for persona in personas %}
 						<blockquote class="personas__mention">
 							<p class="mt0 mb1">
@@ -64,6 +67,7 @@
 {% endif %}
  					</div>
 				</div>
+{% endif %}
 
 				<section class="mb3">
 					<h4 class="mb0">Money Services</h4>

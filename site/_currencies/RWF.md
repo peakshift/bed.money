@@ -6,11 +6,3 @@ categories: east-africa
 environment: There is currently a push for Rwandans to go cashless — especially given the COVID19 pandemic, and the risks of people making exchanges in close proximity.
 currency: RWF
 ---
-
-{% mermaid %}
-graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
-{% endmermaid %}

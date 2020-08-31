@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: persona
 title: Cash is king, but times are changing.
 participant: dbeab7328dee58a6825d5237d9734402a0f7d208a0e59168839868d1667566e1
 description: Works full time but also deals in real estate as a side hustle. Uses mobile money often but dislikes the fact that digital payments tend to lure you to overspend. Prefers cash and says feeling the paper in your hand helps you feel your hard work’s reward. Uses Google Drive to backup contacts and photos, as well as important files. Does not expect Good Drive to run out of space any time soon.

@@ -71,10 +71,13 @@
 					💵
 				</a>
 				<h2 class="page-title text-truncate">
-					{{page.title}}
+					Persona
+					<code
+						>{{page.participant}}</code
+					>
 				</h2>
 				<p class="lead mb0">
-					{{page.description}}
+					<em>{{page.title}}</em> {{page.description}}
 				</p>
 {% if page.tags %}
 				<p class="mb0">
@@ -92,6 +95,24 @@
 					{{content}}
 				</section>
 			</div>
+
+			<div id="ask" class="block" style="display: none;">
+				<section class="mb3">
+					<div class="feature">
+						<h4 class="mb0 mt0">Need to ask your own questions?</h4>
+						<p>
+							If you have more specific questions that were not covered that
+							could help in your product development we will conduct this
+							research on your behalf. Payments are of-course in bitcoin and we
+							will settle with the persona in their preferred local payout
+							method.
+						</p>
+						<p>
+							<a class="button cta--primary" href="#">Ask Questions</a>
+						</p>
+					</div>
+				</section>
+			</div>
 		</div>
 
 		<div id="page-bottom">
@@ -99,5 +120,11 @@
 				<p class="muted">Copyright &copy; 2020 &mdash; <a href="https://peakshift.com">Peak Shift Ltd</a>.</p>
 			</footer>
 		</div>
+
+		<script type="text/javascript">
+			function toggleTable(el, tableId) {
+				document.getElementById(tableId).classList.toggle("collapsed");
+			}
+		</script>
 	</body>
 </html>

@@ -7,10 +7,4 @@ environment: The Eastern Caribbean Central Bank has launched a pilot program for
 currency: XCD
 ---
 
-{% mermaid %}
-graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
-{% endmermaid %}
+[1]: https://www.loc.gov/law/help/cryptocurrency/world-survey.php#caribbean	"Regulation of Cryptocurrency Around the World / ECCB"
