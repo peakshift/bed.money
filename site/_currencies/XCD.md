@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: currency
 title: Eastern Caribbean 🇦🇬 🇦🇮 🇩🇲 🇬🇩 🇲🇸 🇰🇳 🇱🇨 🇻🇨
 date: 2020-08-07 22:48:42 +0200
 categories: caribbean
