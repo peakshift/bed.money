@@ -1,0 +1,207 @@
+I"{<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">PROFILE &amp; WORK</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Location</td>
+      <td>RWANDA</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Job</td>
+      <td>FULL_TIME_SALARY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Payment Frequency</td>
+      <td>MONTHLY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Hours Per Day</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">COVID19 impact on Work Hours</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Side Hustle</td>
+      <td><code class="language-plaintext highlighter-rouge">SOC CODE: 43-9022</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Business Partners</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Dependants</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Technical Knowhow (1-10)</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="store-of-value--payments">STORE OF VALUE &amp; PAYMENTS</h3>
+
+<ul>
+  <li>Keeps the majority of his salary in a Bank Accounts, and uses MTN MobileMoney for day-to-day transactions</li>
+  <li>Has a side hustle to bring in additional revenues</li>
+  <li>Saves regularly</li>
+  <li>Prefers using cash, and says having cash on hand does not increase spending behaviour</li>
+  <li>Uses MTN MobileMoney often but dislikes the new charges the provider have placed on transactions</li>
+  <li>Takes informal loans from a few friends, but won’t borrow from banks because getting in debt to them is scary. So he only has a bank debit card that he uses for online purchases, instead of a credit card. Usually takes 2-4 weeks to repay, depending mostly on when salary payment is available.</li>
+  <li>Pays for his sisters schooling</li>
+  <li>Dislikes waiting for market vendors or motor drivers to get change and doesn’t trust handing over cash if they don’t have change</li>
+  <li>Uses Notes app on his phone to keep records of expenses and who owes him money</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">PREFERENCES</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Store</td>
+      <td>PERSONAL_BANK_ACCOUNT<br />COMPANY_BANK_ACCOUNT<br />CASH<br />MTN_MOBILE_MONEY</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Primary store of Value</td>
+      <td>PERSONAL_BANK_ACCOUNT</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Spending Wallet</td>
+      <td>MTN_MOBILE_MONEY<br />DEBIT_CARD</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">High Value Transactions</td>
+      <td>PERSONAL_BANK_ACCOUNT</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">High Value</td>
+      <td>&gt;50000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Digital Banking</td>
+      <td>USSD_MOBILE_BANKING</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Prefered Payment Method</td>
+      <td>CASH</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Fee</td>
+      <td>Cares about fees, but likes the speed and convenience of mobile money for local payments</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Money Management Strictness</td>
+      <td>%</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="in-your-side-business-how-do-your-customers-pay-you">IN YOUR SIDE BUSINESS, HOW DO YOUR CUSTOMERS PAY YOU?</h5>
+
+<blockquote>
+  <p>What I do is translation services for different clients in Rwanda, and elsewhere in the world. So there are different ways they pay me. Rwandan people, pay me through mobile money and bank accounts. Abroad, they sometimes use Western union and some others wire directly to my local bank account.</p>
+</blockquote>
+
+<h5 id="why-do-you-think-that-using-mobile-money-is-the-easiest-way-to-pay">WHY DO YOU THINK THAT USING MOBILE MONEY IS THE EASIEST WAY TO PAY?</h5>
+
+<blockquote>
+  <p>With mobile money you only send what you need to send. You don’t have to be stuck [waiting for change] with a motor driver or someone whom you’re buying vegetables from.</p>
+
+  <p>Let’s say he only wants 200, you have 5K in your pocket, you don’t have the change and you can’t trust the person to give him all your money. With mobile money if he wants 200, send him 200, then walk away. So it’s quick, you don’t have to negotiate.</p>
+</blockquote>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.4/mermaid.min.js"></script>
+<div class="mermaid">
+graph LR
+    a(Collect Salary as Cheque) --&gt; b(Go to Bank) --&gt; c(Cash Cheque) --&gt; d(Go to MTN Agent) --&gt; e(Deposit to Mobile Money) --&gt; f(Send to Landlord via Mobile Money)
+</div>
+
+<h3 id="pin-security--device-storage">PIN SECURITY &amp; DEVICE STORAGE</h3>
+
+<ul>
+  <li>Is conscious about pin security</li>
+  <li>Backup and Storage is not on top of mind</li>
+  <li>In some cases may opt for cheapness over convenience.</li>
+  <li>Would be willing to create a new Gmail account in order to avoid having to pay for more storage for Google Drive.</li>
+  <li>Sometimes uses a computer to backup information from Google Drive.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">TECH SPECS</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Phone Model</td>
+      <td>Samsung A80</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Phone OS</td>
+      <td>Android</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SD Card</td>
+      <td>UNKNOWN</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Previously Lost Phone</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Desktop/Laptop</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Email Addresses</td>
+      <td>&gt;1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Cloud Provider</td>
+      <td>Google Drive</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Cloud Storage Capacity (GB)</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Storage Cost</td>
+      <td>Free Tier</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Out of Space Warnings</td>
+      <td>Never Seen</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="what-do-you-do-when-an-application-you-have-just-downloaded-asks-you-for-your-phone-number">WHAT DO YOU DO WHEN AN APPLICATION YOU HAVE JUST DOWNLOADED ASKS YOU FOR YOUR PHONE NUMBER?</h5>
+
+<blockquote>
+  <p>There are these apps that you know, for sure that they need it, you always understand the logic behind it. Otherwise I don’t provide it, but if it’s a social media app like Twitter or Instagram, I know for a fact they will need it to generate my contacts and make me communicate with people.</p>
+
+  <p>That’s why they need my contact information. If it is a dictionary, come on. Why do you need my names and things to give me a dictionary?</p>
+</blockquote>
+
+<h5 id="what-would-you-do-if-your-google-cloud-runs-out-of-space">WHAT WOULD YOU DO IF YOUR GOOGLE CLOUD RUNS OUT OF SPACE?</h5>
+
+<blockquote>
+  <p>That’s hasn’t reached there yet. I can figure out something when that happens.</p>
+
+  <p>I would go back and delete some things or transfer some of my things to some of the other accounts. You know, there are so many other ways you can, can have them online.</p>
+
+  <p>Someone can even have 2 Gmails or use Dropbox.</p>
+</blockquote>
+:ET
