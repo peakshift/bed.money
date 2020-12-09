@@ -16,15 +16,14 @@ jobs:
         with:
           fetch-depth: 1
       - name: Install all of the things
-        run: sudo scripts/bootstrap
-      - name: Do cleanup
-        run: rm -rf _site
+        run: sudo script/bootstrap
       - name: Build latest website
-        run: bundle exec jekyll build -d _site
+        run: script/build
       - name: Commit new build
         run: |
           git config user.email "${GITHUB_ACTOR}"
           git config user.name "${GITHUB_ACTOR}@users.noreply.github.com"
+          git checkout gh-pages
           git add _site
           last_commit=$(git log -1 --format=%s)
           git commit -m "ci: deploy $last_commit"
