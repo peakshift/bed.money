@@ -11,25 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🛎 Check out master
-        uses: actions/checkout@master
+      - name: Get repo
+        uses: actions/checkout@v2
         with:
           fetch-depth: 1
-      - name: 🎩 Install Jekyll
+      - name: Install all of the things
         run: |
-          sudo gem install bundler jekyll
-          sudo bundle install
-      - name: 🧹 Clean site
+          gem install jekyll bundler
+          bundle install
+      - name: Do cleanup
+        run: rm -rf _site
+      - name: Build latest website
+        run: bundle exec jekyll build -d _site
+      - name: Commit new build
         run: |
-          if [ -d "docs" ]; then
-            rm -rf docs/*
-          fi
-      - name: 🔨 Build site
-        run: bundle exec jekyll build -d docs
-      - name: 🧪 Deploy build
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add .
-          git commit -am "🧪 Deploy with ${GITHUB_WORKFLOW}"
+          git config --local user.email "${GITHUB_ACTOR}"
+          git config --local user.name "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add _site
+          last_commit=$(git log -1 --format=%s)
+          git commit -m "ci: deploy $last_commit"
           git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
