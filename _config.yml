@@ -36,6 +36,15 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-mermaid
+  - jekyll-compress-images
+
+compress_images:
+  images_path: "assets/i/**/*.{gif,png,jpg,jpeg}"
+
+imageoptim:
+  pngout: false
+  svgo: false
+  verbose: false
 
 collections:
   personas:

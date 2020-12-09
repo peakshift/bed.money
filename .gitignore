@@ -5,4 +5,8 @@ README.md
 site/money-moves.md
 site/proposals.md
 technical-requirements.md
-.jekyll-cache/Jekyll/Cache
+
+## gh-page build
+.jekyll-cache
+## we may have to turn commit image compression cache as image assets grows
+_compress_images_cache.yml
