@@ -1,0 +1,380 @@
+/*
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+*/
+body {
+	font-family: "IBM Plex Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", Arial, sans-serif;
+	color: #505050;
+	letter-spacing: 0;
+	font-size: 18px;
+	line-height: 1.8em;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*:focus {
+	outline: none;
+}
+
+img {
+	max-width: 100%;
+	-ms-interpolation-mode: bicubic;
+}
+
+/*
+	Typography
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "IBM Plex Sans Condensed", sans-serif;
+	font-size: 24px;
+	letter-spacing: 0;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h1 {
+}
+
+h2 {
+	font-size: 35px;
+	line-height: 48px;
+	letter-spacing: 0;
+	font-weight: 500;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #434b50;
+	letter-spacing: 0;
+	text-transform: uppercase;
+}
+
+h5,
+h6 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h6 {
+	color: #788085;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #004d76;
+	border-bottom-color: rgba(0, 132, 203, 0.09);
+}
+
+ul {
+	list-style-type: circle;
+}
+
+ol {
+	font-family: "Redaction 35", "Georgia", serif;
+	font-size: 32px;
+	color: #788085;
+}
+
+ol p,
+ul {
+	font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	color: #434b50;
+	letter-spacing: 0;
+	line-height: 1.66em;
+	margin-top: 0;
+}
+ul li {
+	margin-bottom: 0.4rem;
+}
+
+a {
+	color: #0084cb;
+	border-bottom: 1px solid #0084cb;
+	text-decoration: none;
+}
+
+a:hover,
+.nav a:hover {
+	color: #4bae44;
+	border-color: #4bae44;
+}
+
+abbr {
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.08);
+	text-decoration: none;
+}
+
+blockquote {
+	margin-left: 0;
+	margin-right: 0;
+	font-style: italic;
+	position: relative;
+	padding-left: 0;
+	padding-right: 1rem;
+}
+
+blockquote cite {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+cite {
+	font-style: normal;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	text-transform: uppercase;
+}
+
+.lead {
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: 2.4rem;
+	padding-bottom: 1rem;
+}
+
+.lead strong {
+	border-bottom: 4px solid #b8c1c540;
+}
+
+.text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.muted {
+	color: #b9c1c6;
+}
+
+.mt0 {
+	margin-top: 0 !important;
+}
+
+.mb0 {
+	margin-bottom: 0 !important;
+}
+
+.mb1 {
+	margin-bottom: 1rem;
+}
+
+.mb2 {
+	margin-bottom: 2rem;
+}
+
+.mb3 {
+	margin-bottom: 3rem;
+}
+
+.tag {
+	padding: 0.1em 0.75em;
+	border-radius: 1.25em;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-bottom: 0.5em;
+	display: inline-block;
+	color: inherit;
+	background: #fff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06);
+}
+a.tag:hover {
+	border-color: #d1e9ce;
+}
+
+/*
+	Form
+*/
+button::-moz-focus-inner,
+input::-moz-focus-inner,
+select::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+button,
+input,
+select {
+	width: 100%;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+.custom-select select {
+	margin-bottom: 0rem;
+}
+
+form input:last-child {
+	margin-bottom: 0;
+}
+
+/*
+	Select
+*/
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: relative;
+	background-color: #f2f5f7;
+	border: 1px solid #b9c1c6;
+	padding: 1rem 3rem 1rem 1.5rem;
+	border-radius: 2px;
+	font-size: 18px;
+	font-weight: 200;
+	color: #434b50;
+	display: inline-block;
+	line-height: 1.2rem;
+	box-sizing: border-box;
+}
+
+select:hover,
+select:focus {
+	background-color: #fff;
+	border-color: #788085;
+	box-shadow: inset 0 -2px 0px rgba(0, 77, 117, 0.12);
+}
+
+@media only screen and (min-width: 1200px) {
+	select {
+		background-color: #f2f5f7;
+		border-color: #788085;
+		box-shadow: inset 0 -2px 0px rgba(0, 77, 117, 0.12);
+	}
+}
+.custom-select {
+	position: relative;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.custom-select:after {
+	content: "";
+	position: absolute;
+	right: 1.5rem;
+	top: 50%;
+	margin-top: -5px;
+	height: 10px;
+	width: 19px;
+	z-index: 1;
+	background: transparent url("../i/arrow.svg") no-repeat center center;
+	touch-action: none;
+	pointer-events: none;
+}
+
+/*
+	Buttons
+*/
+.button,
+button,
+input[type="submit"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: #0084cb;
+	box-shadow: 0 0 0 0 #0875b0, inset 0 -2px 0 0 #0875b0;
+	border-radius: 2px;
+	padding: 1rem 1.5rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: none;
+	color: #ffffff;
+	border: none;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 1.2rem;
+	border: 1px solid rgba(3, 35, 51, 0.12);
+}
+
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	color: #fff;
+	border: 1px solid rgba(3, 35, 51, 0.12);
+	filter: brightness(1.1);
+}
+
+.button.cta--primary {
+	background: #4bae44;
+	box-shadow: 0 0 0 0 #42983c, inset 0 -2px 0 0 #42983c;
+}
+
+.button.cta--secondary {
+	background: #0084cb;
+	box-shadow: 0 0 0 0 #0875b0, inset 0 -2px 0 0 #0875b0;
+}
+
+.button.cta--muted {
+	background: #788085;
+	box-shadow: 0 0 0 0 #434b50, inset 0 -2px 0 0 #434b50;
+}
+
+.button.cta--info {
+	background: #004d76;
+	box-shadow: 0 0 0 0 #003754, inset 0 -2px 0 0 #003754;
+}
+
+.button:focus,
+input[type="submit"]:focus {
+	box-shadow: none;
+}
+
+.highlight {
+	background-color: #dd1e3e;
+	background-color: #505050;
+	background-color: #292929;
+	color: #fff;
+	padding: 0 0.3rem;
+}
+
+/*
+	Responsive
+*/
+#page-top {
+	transition: background 0.12s linear;
+}
+
+/*
+Green Page Top
+
+body.home {
+	background-color: #F8FDF9;
+}
+body.home #page-top {
+	background-color: #F8FDF9;
+}
+*/
+
+@media only screen and (min-width: 1440px) {
+	/*	body {
+		background-color: #F8FBFD;
+	}
+	#page-top {
+		background-color: #F8FBFD;
+	}
+*/
+}
