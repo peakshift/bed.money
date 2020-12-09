@@ -1,0 +1,46 @@
+/*
+	Widgets
+*/
+.feature {
+	background: #e6ecf0;
+	padding: 1rem;
+	margin-bottom: 3rem;
+	border: 1px solid #cad6da;
+	border-radius: 2px;
+}
+
+.feature img {
+	width: 100px;
+}
+
+.partners a {
+	border: none;
+}
+
+.partners {
+	list-style: none inside;
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+.partners li {
+	margin-right: 20px;
+	float: left;
+}
+
+.partners li:last-child {
+	margin-right: 0;
+}
+
+.partners img {
+	height: 90px;
+}
+
+@media only screen and (min-width: 871px) {
+	.partners li {
+		margin-right: 20px;
+	}
+	.partners img {
+		height: 122px;
+	}
+}
