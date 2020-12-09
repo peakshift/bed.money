@@ -20,7 +20,7 @@ jobs:
         run: |
           git config user.email "${GITHUB_ACTOR}"
           git config user.name "${GITHUB_ACTOR}@users.noreply.github.com"
-          git merge origin/dev
+          git merge --squash origin/dev
       - name: Install all of the things
         run: sudo script/bootstrap
       - name: Build latest website
