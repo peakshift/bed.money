@@ -17,8 +17,8 @@ jobs:
           fetch-depth: 1
       - name: Install all of the things
         run: |
-          gem install jekyll bundler
-          bundle install
+          sudo gem install jekyll bundler
+          sudo bundle install
       - name: Do cleanup
         run: rm -rf _site
       - name: Build latest website
