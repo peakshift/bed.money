@@ -72,11 +72,12 @@ BED.MONEY NOTES
 - Withdrawing money from Equity Bank with EazzyPay on the ATM
 
 Transferring money from Equity Bank 
-```mermaid
+{% mermaid %}
 graph LR
 1(Equity Bank) --> 2(EazzyPay) --> 3(ATM) --> 4(Cash)
 2 --> 5(Mobile Money)
-```
+{% endmermaid %}
+
 - Also using EazzyPay to transfer money to accounts in different banks
 - When borrowing money to friends and family or from them, money is expected to be paid back in 30 days
 

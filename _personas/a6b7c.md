@@ -58,29 +58,32 @@ tags:
 - When taking loans from other people, payback depends on the [loose] agreement with the individual.
 - Receives primary income as a cheque.
 
-```mermaid
+{% mermaid %}
 graph LR
-1(Cheque) --> 2(Deposit the cheque) --> 3(Tranfers money to Bank of Kigali account) 
-```
+  1(Cheque) --> 2(Deposit the cheque) --> 3(Tranfers money to Bank of Kigali account) 
+{% endmermaid %}
+
 - Same bank transfers are done through Bank of Kigali account, because big amount of money is usually there. 
 - Bank of Kigali is the main account and holds the biggest amount of money, but most preferred bank is Equity because it's more flexible, has more agents and it has easy access. Another advantage of banking with Equity is no need for an app, money can be transferred to Mobile Money through EazzyPay. 
 
 ##### TRANSFERING MONEY FROM EQUITY BANK TO MOBILE MONEY
 
-```mermaid
+{% mermaid %}
 graph LR
-1(Equity Bank) --> 2(EazzyPay/USSD) --> 3(Mobile Money) 
-```
+  1(Equity Bank) --> 2(EazzyPay/USSD) --> 3(Mobile Money) 
+{% endmermaid %}
+
 - When it comes to transferring money from Equity Bank to Mobile Money everything is being done through USSD. In order to do that phone number needs to be connected to the bank account. 
 
 ##### TRANSFERING MONEY FROM BANK OF KIGALI TO MOBILE MONEY
 
-```mermaid
+{% mermaid %}
 graph LR
-1(BK) --> 2(BK app) --> 3(Mobile Money)
-1 --> 1.1(No app) --> 1.2(BK agent withdraws the cash) --> 1.3(Mobile Money) 
-1.1 --> 2.2(BK agent withdraws the cash) --> 2.3(Equity Bank) --> 2.4(EazzyPay/USSD) --> 2.5(Mobile Money)
-```
+  1(BK) --> 2(BK app) --> 3(Mobile Money)
+  1 --> 1.1(No app) --> 1.2(BK agent withdraws the cash) --> 1.3(Mobile Money) 
+  1.1 --> 2.2(BK agent withdraws the cash) --> 2.3(Equity Bank) --> 2.4(EazzyPay/USSD) --> 2.5(Mobile Money)
+{% endmermaid %}
+
 > You need to download BK app and from that app you send it to Mobile Money, if you don't have an app you can only transfer it to another Bank Account in this case Equity Bank and from there you can put it on Mobile Money.[^bank_of_kigali_ux_1]
 
 ### Conveniences
