@@ -56,7 +56,7 @@ defaults:
       layout: persona
 
 mermaid:
-  src: 'assets/js/mermaid.min.js'
+  src: '/assets/js/mermaid.min.js'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

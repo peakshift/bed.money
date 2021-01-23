@@ -1,6 +1,6 @@
 ---
 layout: persona
-title: I am least paranoid and least interesting, so I am not worried about people hacking me
+title: I am least paranoid and least interesting, so I am not worried about people hacking me.
 participant: a6b7cd37dbd23d761f5e5d469eff6184197e7132e65d362d507e5cf0f18ec22a
 description: Currently studying and works as an intern for 5-8 hours a day. COVID-19 didn't affect working hours. Money is being stored in two bank accounts, mobile money (MTN used most of the time, Airtel and Tigo only when it comes to sending money to someone in those Networks) and cash. Banking with Bank of Kigali and Equity Bank. Uses EazzyPay for money transfers, from one bank to another and from bank to Mobile Money.
 currency: RWF
