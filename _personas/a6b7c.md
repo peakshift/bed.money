@@ -60,11 +60,13 @@ tags:
 
 {% mermaid %}
 graph LR
-  1(Cheque) --> 2(Deposit the cheque) --> 3(Tranfers money to Bank of Kigali account) 
+  1(Receive Cheque from Employer) --> 2(Cashes Cheque) --> 3(Deposit at Equity Bank Agent) --> 4(EazzyPay: Tranfers money to Bank of Kigali account)
 {% endmermaid %}
 
-- Same bank transfers are done through Bank of Kigali account, because big amount of money is usually there. 
-- Bank of Kigali is the main account and holds the biggest amount of money, but most preferred bank is Equity because it's more flexible, has more agents and it has easy access. Another advantage of banking with Equity is no need for an app, money can be transferred to Mobile Money through EazzyPay. 
+- Same bank transfers are done through Bank of Kigali account, because large amount of money is usually there. 
+- Bank of Kigali is the main account and holds the largest amount of money
+- Most preferred bank is Equity because it's more flexible, has more agents and it has easy access.
+- Another advantage of banking with Equity is no need for an app, money can be transferred to Mobile Money through EazzyPay. 
 
 ##### TRANSFERING MONEY FROM EQUITY BANK TO MOBILE MONEY
 
