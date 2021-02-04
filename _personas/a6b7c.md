@@ -146,10 +146,11 @@ graph LR
      - Food delivery
 
 BED.MONEY Notes
-- Never lost a phone before, because it's always around. Has previously lost contacts and photos if it happens that phone has been changed or it died. 
+- Never lost a phone before, because it's always around. Has previously lost contacts and photos but when that happened the phone was been changed or was damaged. 
 > If I have to change a phone or my phone dies and I have to recover my contacts and it's so hard, before I didn't know how to save it on my email, but now I can recover it if I change phones.
 
-- When Out of Storage Warning comes up another email is being created. 
+- Manages multiple email address.
+- When the phone's Out of Storage Warning comes up another email account is created to get free 15gb cloud storage. 
 
 ### Conveniences
 
