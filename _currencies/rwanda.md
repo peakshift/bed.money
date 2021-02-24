@@ -1,5 +1,5 @@
 ---
-tags: country
+title: rwanda
 ---
 
 # RWANDA / RWF/ 🇷🇼
